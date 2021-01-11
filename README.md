@@ -18,6 +18,7 @@ Note that the original model contains a lot of obsolete states. Ideally these ar
 If another linearized model is desired (for instance if you want to investigate another load flow scenario) then you will have do some "manual engineering" and revisit the model reduction steps.
 
 ## Control design
+
 - Synthesize a H2 controller and a PSS-style controller
 - Compare linear step responses. Note that the real nonlinear simulation will differ quite a bit.
 - The choice of PSS gain is obtained by running a root locus. Choose k_pss so that damping of the inter-area mode becomes 10%
@@ -31,8 +32,7 @@ Create H2 controllers for
 - Line flow measurement
 - Voltage measurement
 
-
-These are compared with the base line H2 controller using local pahse angle measurement, and the uncontrolled system.
+These are compared with the base line H2 controller using local phase angle measurement, and the uncontrolled system.
 
 # Main Simulation
 

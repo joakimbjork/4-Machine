@@ -19,7 +19,7 @@ If another linearized model is desired (for instance if you want to investigate 
 
 ## Control design
 
-- Synthesize a H2 controller and a PSS-style controller
+- Synthesize a H2 controller and a PSS-style controller using local phase anlge measurement.
 - Compare linear step responses. Note that the real nonlinear simulation will differ quite a bit.
 - The choice of PSS gain is obtained by running a root locus. Choose k_pss so that damping of the inter-area mode becomes 10%
 - Compare disturbance response ratio between PSS and H2.

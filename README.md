@@ -1,8 +1,5 @@
 # Sensor Feedback Limitations - Application in a 4-Machine Power System
 
-This repository presents the methods and simulation results from [cite]. 
-
-Content
 
 # main_analys.m
 
